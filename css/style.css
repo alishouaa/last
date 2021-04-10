@@ -1,0 +1,303 @@
+@font-face {
+    src: url(../font/Cairo-Regular.ttf);
+    font-family: al-font;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: al-font;
+    background-color: #f2f2f2;
+}
+
+section .head {
+    background-image: url(../img/images\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+section .card-photo ul {
+    padding-top: 10px;
+    direction: ltr;
+}
+
+section .card-photo ul li {
+    color: white;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+section .card-photo ul li i {
+    color: white;
+    padding-right: 12px;
+}
+
+section .card-photo ul li.logo>i {
+    padding-right: 30px;
+    padding-top: 18px;
+    color: #d9d9d9;
+}
+
+section .card-photo ul li.logo>i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+section .card-photo {
+    background-color: #008000;
+    height: 310px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+    from {
+        top: 50px;
+    }
+    to {
+        top: 100px;
+    }
+}
+
+section .card-photo .image img {
+    width: 550px;
+    height: 340px;
+    padding-left: 100px;
+    border-top-left-radius: 700px 600px;
+}
+
+.test-page {
+    padding-top: 150px;
+}
+
+.test-page ul a {
+    text-decoration: none;
+}
+
+.test-page ul.ul {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.test-page ul.ul li {
+    display: inline;
+    color: green;
+    list-style: none;
+    padding: 10px 50px;
+    font-size: 22px;
+}
+
+.test-page ul.ul li:hover {
+    color: white;
+    background-color: green;
+    transition: 0.3s ease-in-out;
+}
+
+.action {
+    margin-top: 80px;
+}
+
+.action h2 i {
+    margin-left: 15px;
+    color: green;
+}
+
+.action .howyou .cart {
+    margin-top: 50px;
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.action .howyou .cart ul li {
+    list-style: none;
+    font-size: 20px;
+    padding-top: 18px;
+    color: black;
+}
+
+.action .howyou .cart img {
+    width: 350px;
+    height: 250px;
+    border: 2px grey solid;
+    margin-top: 20px;
+}
+
+.action .education {
+    margin-top: 50px;
+}
+
+.action .education .cart-2 .body {
+    padding-top: 30px;
+    border-bottom: 1px solid gray;
+    height: 190px;
+}
+
+.action .education .cart-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.action .education .cart-2 h3 {
+    text-align: center;
+    font-size: 22px;
+    color: green;
+    line-height: 40px;
+}
+
+.action .education .cart-2 p {
+    color: grey;
+    line-height: 30px;
+    text-align: center;
+}
+
+.opinion {
+    padding-top: 30px;
+    margin-right: 200px;
+}
+
+.opinion .custom-ali img {
+    width: 250px;
+    height: 200px;
+    border: 2px solid gray;
+}
+
+.opinion .custom-ali h4 {
+    padding-top: 20px;
+}
+
+.opinion .custom-ali p {
+    padding-top: 20px;
+}
+
+.opinion .custom-ctr i {
+    color: green;
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.opinion .custom-ctr i:hover {
+    background-color: green;
+    color: white;
+}
+
+header .nav {
+    background-color: green;
+    height: 80px;
+}
+
+header .nav span {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+header .nav h3 {
+    color: white;
+    padding-top: 20px;
+}
+
+header .nav ul {
+    direction: ltr;
+    padding-top: 25px;
+}
+
+header .nav ul a {
+    text-decoration: none;
+}
+
+header .nav ul li {
+    display: inline;
+    color: white;
+    padding: 10px 50px;
+}
+
+header .nav ul li:hover,
+header .nav ul li:focus {
+    background-color: white;
+    color: green;
+    transition: 0.3s ease-in-out
+}
+
+footer.footer h3 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+}
+
+footer.footer .cal {
+    background-color: rgb(13, 99, 13);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+footer.footer .cal input {
+    width: 48%;
+    display: inline;
+    margin-right: 10px;
+}
+
+section.work h2 {
+    padding: 70px 0;
+}
+
+footer.footer .cal textarea {
+    margin-top: 10px;
+    width: 97.6%;
+    height: 200px;
+    margin-right: 10px;
+}
+
+footer.footer .cal ul li {
+    color: white;
+    list-style: none;
+}
+
+footer.footer .cal hr {
+    color: white;
+}
+
+footer.footer .cal button {
+    background-color: white;
+    color: green;
+    margin-right: 10px;
+}
+
+footer.footer .cal .tag i {
+    color: white;
+    padding-right: 20px;
+}
+
+section .custom-ali {
+    text-align: center;
+    margin-top: 70px;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+section .custom-ali img {
+    width: 100%;
+    margin-bottom: 40px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+section.work .ali img {
+    width: 100%;
+    margin: 40px 0;
+    height: 40%;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+section.work .ali img:hover,
+section.work .ali img:focus {
+    opacity: 0.5;
+}
